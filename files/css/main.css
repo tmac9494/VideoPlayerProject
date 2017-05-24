@@ -1,0 +1,95 @@
+p, span {font-family: 'Nunito', sans-serif;font-weight: 600;}
+span:hover {cursor:pointer;}
+
+
+video {max-width:100%;}
+.video-wrapper {
+	margin: 0 auto;
+	width:100%;
+	max-width:620px;
+	min-height:305px;
+}
+.transcript-wrapper {
+	max-width:720px;
+	margin: 0 auto;
+	padding:12px 10px;
+}
+
+#mep_0 {
+	width:720px;
+}
+
+
+
+/*video*/
+.mejs__controls:not([style*="display: none"]) {
+	/*transform:translateY(40px);*/
+	background:linear-gradient(#363636,#242424);
+}
+
+/*button styles*/
+
+/*.mejs__time-total {background: #90CAF9;}
+.mejs__time-current, .mejs__time-handle-content {background:#2196F3;}*/
+/*.mejs__button svg {fill:#2196F3;}*/
+
+
+/*transcript*/
+
+.transcript-wrapper span {
+	font-size:20px;
+	line-height: 24px;
+}
+/*.transcript-wrapper p:first-child {
+	margin-top: 50px;
+}*/
+
+.lit {color: orange;}
+
+@media screen and (min-width:768px) {     /*---tablet---*/
+
+
+.video-wrapper {
+	max-width:720px;
+	min-height:405px;
+}
+.transcript-wrapper {max-width:720px;}
+
+
+
+
+
+
+
+
+}  @media screen and (min-width:768px) {     /*---desktop---*/
+
+
+
+
+.video-wrapper {
+	max-width:850px;
+	min-height:535px;
+}
+.transcript-wrapper {max-width:850px;}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
